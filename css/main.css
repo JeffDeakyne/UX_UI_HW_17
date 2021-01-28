@@ -73,6 +73,7 @@ nav a {
 h1{
     padding-left: 0%;
     text-align: center;
+    color:#23E5FF;
 }
 
 
@@ -92,7 +93,7 @@ padding-left: 26%;
 text-align: center;
 color: rgba(255, 255, 255, 0.87);
 padding-top: 0%;
-color: #23E5FF;
+color: #ffffff;
 
 }
  h3{
@@ -111,3 +112,38 @@ h4{
     padding-top: 10%;
 }
 
+.card {
+    display:inline-flex;
+    grid-template-columns:10px ;
+    grid-template-rows: 10px 10px 25px ;
+    grid-template-areas: "image" "text" "stats";
+
+
+    border-radius:18px ;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0,9);
+    text-align: center;
+   }
+   
+.card-image{
+    grid-area: "image";
+    background: url();
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size:cover;
+    
+}
+.card-text {
+    grid-area: "text";
+    text-align: center;
+    margin: 25px;
+}
+.card-stats{
+    grid-area: "stats";
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+    background: rgb(255,7,110);
+}
