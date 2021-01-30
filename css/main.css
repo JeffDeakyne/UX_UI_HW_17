@@ -1,6 +1,6 @@
 body {
     margin:0%;
-    background: #222;
+    background: rgb(66, 66, 66);
     font-family:sans-serif;
     font-weight:300;
 }
@@ -58,7 +58,7 @@ nav a {
 
 
 
-.Hi{
+.about_me{
     padding-right: 50px;
     padding-bottom: 75%;
     font-family: Poppins;
@@ -68,6 +68,7 @@ nav a {
     color: rgba(255, 255, 255, 0.87);
     text-align:center; 
     padding-top: 15%;
+
     }
 
 h1{
@@ -112,38 +113,49 @@ h4{
     padding-top: 10%;
 }
 
-.card {
-    display:inline-flex;
-    grid-template-columns:10px ;
-    grid-template-rows: 10px 10px 25px ;
-    grid-template-areas: "image" "text" "stats";
 
+.container-1{
+    display: inline;
+    flex-direction: column;
+    padding-left:auto;
+    padding-right: auto;
+    width: 50%;
 
-    border-radius:18px ;
-    background: white;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0,9);
-    text-align: center;
-   }
    
-.card-image{
-    grid-area: "image";
-    background: url();
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    background-size:cover;
     
 }
-.card-text {
-    grid-area: "text";
-    text-align: center;
-    margin: 25px;
+.container-1 div{
+    border: 1px #ccc solid;
+    padding: 10px;
+    align-content: center;
 }
-.card-stats{
-    grid-area: "stats";
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    border-bottom-left-radius: 15px ;
-    border-bottom-right-radius: 15px;
-    background: rgb(255,7,110);
+
+.skills-1{
+
+
+}
+
+.skills-2{
+
+}
+
+.skills-3{
+    
+
+}
+.skills{
+    text-align: center;
+}
+  
+.container-2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container-2 div{
+    border: 1px #ccc solid;
+    padding: auto;
+    align-content: center;
+    
 }
